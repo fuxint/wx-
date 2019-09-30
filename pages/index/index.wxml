@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+ <image class="bgimg" src="./bg.png"></image>
+  </view>
+  <view class="cart">
+      <view class="name">付欣彤</view>
+      <view class="tel">
+        <text>手机</text>
+        <view>15043145679</view>
+        <button bindtap="ClickCall">拨打</button>
+      </view>
+      <view class="tel">
+        <text>邮箱</text>
+        <view>3090597803@qq.com</view>
+        <button bindtap="ClickCopy">复制</button>
+      </view>
+       <view class="tel">
+        <text>职业</text>
+        <view>web前端工程师</view>
+        <button bindtap="ClickJob">复制</button>
+      </view>
+   
+  </view>
+  <view class="content">
+      <view>
+          <image></image>
+          <text>生成海报</text>
+      </view>
+      <view>
+          <image></image>
+          <text>保存电话</text>
+      </view>
+      <view>
+          <image></image>
+          <text>分享好友</text>
+      </view>
+  </view>
+</view>

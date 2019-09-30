@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/a/a"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MiniProgram",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f90",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "名片"
+      },
+      {
+        "pagePath": "pages/a/a",
+        "text": "项目"
+      },
+
+      {
+        "pagePath": "pages/a/a",
+        "text": "简历"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+ 
+}
