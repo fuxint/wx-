@@ -1,0 +1,58 @@
+/* pages/resume/resume.wxss */
+.bgimg{
+  width: 100%;
+  height:300rpx;
+  border: 1px solid #ccc
+}
+.userinfo{
+  width: 100%
+}
+.cart{
+  padding: 10rpx 20rpx;
+  position: fixed;
+  top: 260rpx;
+  width:70%;
+  padding-left: 10%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  background:#fffffd;
+  box-shadow:5rpx 5rpx 5rpx 5rpx #e8e8e8; 
+}
+.cart>.left>text{
+    font-size: 28rpx;
+    margin-left: 20rpx;
+}
+.cart>.left{
+  margin-bottom: 30rpx;
+}
+.you>text{
+  font-size: 30rpx;
+  display: block;
+  line-height: 50rpx;
+  color: #666
+}
+.introduce{
+  display: flex;
+  flex-wrap: wrap;
+   height:120rpx
+}
+.zuo{
+  width: 50rpx;
+  margin-right: 20rpx;
+
+}
+.circle1,.circle2{
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #e8e8e8;
+  margin-bottom: 20rpx;
+  /* margin-right: 30rpx; */
+  margin:0 auto 10rpx auto ;
+}
+.circle2{
+  width: 15rpx;
+  height: 15rpx;
+}

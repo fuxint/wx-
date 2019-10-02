@@ -7,30 +7,83 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    img:'',
+    show:false,
+    bgcolor:false
     
   },
   //事件处理函数
-  // 拨打电话
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
+  hideFloat(){
+    this.setData({
+      show: false,
+      bgcolor: false
+    })
+    wx.showTabBar({
+      
     })
   },
-// 复制
-  ClickCopy:function(e){
+ 
+  // 保存电话
+  KeepPhone(){
+    this.setData({
+      show:true,
+      bgcolor:true
+    })
+    wx.hideTabBar({
+    })
+  },
+  // 创建新的联系人
+  CreateNumber(){
+    wx.addPhoneContact({
+      firstName:"付欣彤",
+      mobilePhoneNumber:15043145679
+    })
+  },
+  // 添加现有联系人
+  AddContact(){
+   
+    // wx.addPhoneContact({
+   
+    // })
+  },
+  // 分享
+  shareCart(){
+    wx.updateShareMenu({
+      withShareTicket: true,
+      success() { }
+    })
+  },
+  // 获取本地图片
+  ClickPhone(){
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success(res) {
+        this.setData({
+          img:res.tempFilePaths
+        })
+      }
+    })
+  },
+
+
+// 复制邮箱
+  ClickCopy(){
       wx.setClipboardData({
         data: '3090597803@qq.com'
         // success:function(res){
         // }
       })
   },
-  // 复制邮箱
-  ClickCall:function(){
+    // 拨打电话
+  ClickCall(){
     wx.makePhoneCall({
       phoneNumber: '15043145679',
     })
   },
-  ClickJob:function(){
+  // 复制职业
+  ClickJob(){
     wx.setClipboardData({
       data: 'web前端工程师'
     })

@@ -1,0 +1,62 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+    <image class="img" src="./img/img1.jpg"></image>
+    <view class="intro">
+      <text>"日志版"主要记录技术、技巧、常识、经验类文章。用户可以发自己的文章，同时可以留言与文章发布者沟通，一同探索问题</text>
+    </view>
+
+
+    <view class="essay">
+      <text class="page">首页</text>
+      <text class="list">各类文章列表，可以让用户更方便的找到自己感兴趣的文章</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/img6.jpg"></image>
+      </view>
+         <view class="home_index">
+             <image  src="./img/img3.jpg"></image>
+         
+         </view>
+     
+      </view>
+    </view>
+
+
+
+      <view class="essay">
+      <text class="page">专题</text>
+      <text class="list">碎文：所见所闻，什么好奇的都有。满足兴趣广泛用户的需知。</text>
+      <text class="list">知识：好记性不如好分享。你会了，我也会了，用户可以分享自己了解的文章</text>
+      <text class="list">技术：可以说是瞎折腾的地方。用户可以阅读与技术相关的文章</text>
+      <text class="list">资源：各类资源收集，不为别的，方便你我</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/img4.jpg"></image>
+      </view>
+         <view class="home_index">
+             <image  src="./img/img3.jpg"></image>
+         
+         </view>
+     
+      </view>
+    </view>
+
+
+
+
+ <view class="essay">
+      <text class="page">我的页面</text>
+      <text class="list">包含用户个人信息。浏览足迹、评论文章、点赞文章、赞赏文章以及订阅栏目</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/img2.jpg"></image>
+      </view>
+       
+     
+      </view>
+    </view>
+
+
+
+
+</view>

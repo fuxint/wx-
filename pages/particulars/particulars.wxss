@@ -1,0 +1,48 @@
+/* pages/particulars/particulars.wxss */
+/* pages/detail/detail.wxss */
+ page {
+  background: #d20628;
+} 
+.detail{
+  padding: 0 5% 0 5%;
+  
+}
+.intro>text{
+font-size: 34rpx;
+font-weight: bold;
+color: #fff
+}
+.intro{
+  margin-bottom: 30rpx;
+}
+.list{
+  font-size: 34rpx;
+  display: block
+}
+.page{
+  line-height:100rpx;
+  font-weight: bolder;
+  display: block 
+}
+.img{
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+  margin: 30rpx auto;
+  border-radius: 10rpx;
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.home_index{
+  width: 315rpx;
+  margin-right: 20rpx;
+}
+.home_index>image{
+  width: 100%;
+  border-radius: 10rpx;
+}

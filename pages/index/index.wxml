@@ -1,7 +1,15 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container"  bindtap="ClickShow">
   <view class="userinfo">
- <image class="bgimg" src="./bg.png"></image>
+   <swiper autoplay="true" indicator-dots="true">
+          <swiper-item>
+         <image class="bgimg" src="./bg.png"></image>
+          </swiper-item>
+   <swiper-item>
+         <image class="bgimg" src="./bg.png"></image>
+          </swiper-item>
+
+      </swiper>
   </view>
   <view class="cart">
       <view class="name">付欣彤</view>
@@ -19,21 +27,37 @@
         <text>职业</text>
         <view>web前端工程师</view>
         <button bindtap="ClickJob">复制</button>
+      
       </view>
    
   </view>
   <view class="content">
-      <view>
-          <image></image>
+      <view bindtap="ClickPhone">
+    
+          <image src="./cut.png"></image>
           <text>生成海报</text>
       </view>
-      <view>
-          <image></image>
+      <view bindtap="KeepPhone">
+        <!-- <picker range="{{arr}}"  mode="selector"> -->
+        
+          <image  src="./shareNum.png"></image>
           <text>保存电话</text>
+          
+          <!-- </picker> -->
       </view>
-      <view>
-          <image></image>
+      <view bindtap="shareCart">
+          <image src="./share.png"></image>
           <text>分享好友</text>
       </view>
   </view>
+
+<view class="pop-up" wx:if="{{show||show2}}">
+  <text catchtap="CreateNumber">
+   创建新联系人
+  </text>
+  <text catchtap="AddContact">
+   添加现有联系人
+  </text>
+</view>
+<view class="{{bgcolor?'bgcolor':''}}" bindtap="hideFloat"></view>
 </view>

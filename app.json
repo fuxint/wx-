@@ -1,31 +1,48 @@
 {
   "pages": [
+    
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/a/a"
+    "pages/resume/resume",
+    "pages/project/project",
+    "pages/detail/detail",
+    "pages/particulars/particulars",
+    "pages/logs/logs"
+   
+   
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "MiniProgram",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "付欣彤的简历",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#fffffd"
   },
   "tabBar": {
+    "position":"bottom",
     "color": "#ccc",
     "selectedColor": "#f90",
     "list": [
       {
+        
         "pagePath": "pages/index/index",
-        "text": "名片"
+        "text": "名片",
+        "iconPath":"/pages/index/cart1.png",
+        "selectedIconPath":"/pages/index/cart2 (1).png"
+       
       },
       {
-        "pagePath": "pages/a/a",
-        "text": "项目"
+        "pagePath": "pages/project/project",
+        "text": "项目",
+        "iconPath": "/pages/index/cart2 (2).png",
+        "selectedIconPath": "/pages/index/cart2.png"
       },
 
       {
-        "pagePath": "pages/a/a",
-        "text": "简历"
+        "pagePath": "pages/resume/resume",
+        "text": "简历",
+        "iconPath": "/pages/index/cart2 (3).png",
+        "selectedIconPath": "/pages/index/cart3.png"
       }
     ]
   },

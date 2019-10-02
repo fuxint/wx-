@@ -1,0 +1,10 @@
+<template name="item">
+  <view class="pop-up" wx:if="{{show}}">
+  <text bindtap="CreateNumber">
+   创建新联系人
+  </text>
+  <text bindtap="AddContact">
+   添加现有联系人
+  </text>
+</view>
+</template>

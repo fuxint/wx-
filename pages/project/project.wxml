@@ -1,0 +1,28 @@
+<view class="box">
+<view class="item">
+ <navigator url="/pages/detail/detail">
+  <view class="top">
+      <image src="./a.png"></image>
+    </view>
+    <view>
+      <text class="log">日志版</text>
+      <text class="record">记录技术、技巧、常识、经验类文章</text>
+    </view>
+   </navigator>
+</view>
+
+  <view class="item">
+  <navigator url="/pages/particulars/particulars">
+  
+ 
+  <view class="top">
+      <image src="./a.png"></image>
+    </view>
+    <view>
+      <text class="log">微店+</text>
+      <text class="record">这里有你常逛的微店</text>
+    </view>
+     </navigator>
+</view>
+
+</view>

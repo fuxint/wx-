@@ -1,0 +1,72 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+    <image class="img" src="./img/img1.jpg"></image>
+    <view class="intro">
+      <text>微店+"这里有你常逛的微店"。"微店+"是一款在全国服务范围内面向微信用户提供上线"零售"服务的小程序产品，在"购物、商城"等综合服务领域具有一定的知名度</text>
+    </view>
+
+
+    <view class="essay">
+      <text class="page">首页</text>
+      <text class="list">商品广告图，搜索自己喜欢的商品及店铺，分类选项，商品列表页</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/a.jpg"></image>
+      </view>
+         <view class="home_index">
+             <image  src="./img/b.jpg"></image>
+         
+         </view>
+     
+      </view>
+    </view>
+
+
+
+      <view class="essay">
+      <text class="page">购物车页、订单页</text>
+     
+      <text class="list">购物车列表、订单列表以及猜你喜欢商品列表。可以使用户更好的找到自己喜欢的商品，给用户更好的购物体验</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/c.jpg"></image>
+      </view>
+         <view class="home_index">
+             <image  src="./img/d.jpg"></image>
+         
+         </view>
+     
+      </view>
+    </view>
+
+
+
+
+ <view class="essay">
+      <text class="page">收货地址</text>
+      <text class="list">通过设置添加收货地址，并且可以设置默认地址。设置里可以解决用户一些问题</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/e.jpg"></image>
+      </view>
+       <view class="home_index">
+      <image  src="./img/f.jpg"></image>
+      </view>
+     
+      </view>
+    </view>
+
+
+ <view class="essay">
+      <text class="page">我的页面</text>
+      <text class="list">包含用户个人信息、浏览历史、收藏商品、收藏的店等用户信息，也有订单，下单商品的相关显示</text>
+      <view class="home">
+      <view class="home_index">
+      <image  src="./img/a.jpg"></image>
+      </view>
+       
+     
+      </view>
+    </view>
+
+</view>

@@ -8,3 +8,34 @@
    /* padding: 200rpx 0; */
   box-sizing: border-box; 
 } 
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1569920695382'); /* IE9 */
+  src: url('iconfont.eot?t=1569920695382#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQ8AAsAAAAACIQAAAPuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEQINhATYCJAMQCwoABCAFhG0HRxtSB1GULkqZ7AtsG/akiDYMIQSDhgAAc2YllYICAAC4YLzeCfHwtYa+v7sHuQsWgGUmtmiRFIFi20oioePiMrX1FY4lC9uZu5rLzQO6f2HWfonYBfcSvpvLFsnpKlVX2wrXoXU1e9KDTrSSqCSzyhk/7x9fF4eqmeLzsy1Oc24MYHhrwPY8z4VqxXIrjB3GLmiJzwl01uhhHFjbOYGawlwXiNuhb0Mto1UaCkMr1BVHS8RrlTY9SSsAXgV/H/9gKFqSKjO3Hrm66sHCz8rP0/wyxLrgIfCmM4OdImMXUIjrldaLilF0l6JOTS+ZAVrLnJhqYufn6TBg/lGkLf6XR0gyUTOlowg7Hcv8rDhMgp87TBI/T7UyRBd5Ozg+j89QuWqa711Ua1tGvblS+vGm2XIPsyfO9o2Tn5H5mZkPe6c+XVCtu29pOTw/ubtrvjjA7TS8vw0r3DnZ26OFBrXNe3enId/yofQBelzD/nrGYqdjuTm7y4HPaAPgUSs3zKHGjT9th/JsRjzuwI/13d5khsBXD1u5cSU9Qh39RZ1mzYLt3XQl+GeDAm1dNOYwwmw7I5ws9S0lwM+NstQoju+XVuzMUPdNbQxAWKBOM3u0n8CHH9vr7tiddcG1cWnr6eiIJj+YmiwksQmR8y97oXL6WTM2P/5+taA2ZV3WpwumnMeEmKRH5SHeiq9f2iciXyHf26O+JiUCefzNYewA/Kgoq5buTpOt01UQ3zgnIzPHJR7tqLNi+KfvoP+PNWf4Z5BytOax2S9giKhL65audmVoD2kHSQnuUnwdj/nJeinxv5zUlVHifgjZ3Ykw58HRXWeDoL/Got18+A0g28gkbXg4bfmCpjWa3FiHvKY8TYZ+CJLusPjJXbU2FCbRrVY0IAgwTCHLUbmcA59gKJAv/enLjHqev5LJvbb4hw58HpTsR+7/B8NsS7UC/DleZ94vVpdCAyKhJjA1pShszA343WsUB5V5Y006HQboXOBvCvliNZ/QWpxA0lgNWWsTsmB3QaU3DbXWbujstH66t5BWFGUEO3wCCJO+IBn3EbJJ38iC/YXKEv9Qm4wMnVPRvrK3JW40ljXZTB46txi6MhO2gRth4RH5l4mt04IAd0Y6DwM42DeQT6xTRnqKHfmVP8QsUGiZ4hp4jZJEotIyIpf7AmY11d8vqj7U58oUGvbTiI0RD3LcQiGXlBFeb9Yo/P4R4ruUsOmGjirrGaLlwunRoD4DHZDr0qxTx63Mzl3xDWFM4FWCJqXQGjSTxIpKSFUvihAX6xMMCCtT+lE30VXat7w8fcN90DF3l0iRo0Rl5Ip36dp8C3NLfii4oWSYcW+sAQAAAA==') format('woff2'),
+  url('iconfont.woff?t=1569920695382') format('woff'),
+  url('iconfont.ttf?t=1569920695382') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1569920695382#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-education:before {
+  content: "\e606";
+  color: #1abefb
+}
+
+.icon-gift:before {
+  content: "\e64c";
+  color: #1abefb
+}
+
+.icon-point-gift:before {
+  content: "\e655";
+}
+
